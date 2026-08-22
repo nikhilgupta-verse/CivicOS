@@ -1,0 +1,6 @@
+{
+  "name": "CivicOS — AI Operating System for Civic Governance",
+  "description": "AI-powered civic governance platform connecting citizens with municipal departments to report, understand, prioritize, route, resolve, and verify civic issues.",
+  "requestFramePermissions": ["geolocation", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

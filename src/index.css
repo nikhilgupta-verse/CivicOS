@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  header, footer, nav, button {
+    display: none !important;
+  }
+  #civic-receipt-card, #civic-official-poster {
+    box-shadow: none !important;
+    border-color: black !important;
+    color: black !important;
+    background: white !important;
+  }
+}
